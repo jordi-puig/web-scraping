@@ -34,6 +34,7 @@ El Dataset descarregat conté els següents camps per a cada registre:
 - curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 - python get-pip.py
 - pip install selenium
+- pip install webdriver-manager
 ## Fitxers de el codi font
 ## Recursos
 ## Llicencia utilitzada
