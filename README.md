@@ -30,7 +30,9 @@ El Dataset descarregat conté els següents camps per a cada registre:
 - Participants: nombre de participants (enter) 
 - Eligibility Criteria: criteri per incloure els participants a l'estudi (string)
  
-
+## Configuració previa:
+- curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+- python get-pip.py
 ## Fitxers de el codi font
 ## Recursos
 ## Llicencia utilitzada
