@@ -30,10 +30,12 @@ class Scraper:
         browser = webdriver.Chrome(ChromeDriverManager().install(), options=options)
         browser.get(current_path)
         
-        while (len(self.lines) < 10):
+        while (len(self.lines) < 5):
+            print('process page:', len(self.lines) +1)
             study_scraper = StudyScraper(browser)
             study = study_scraper.get_study()
             self.lines.append(study)
+            print('page:', study.id, 'processed')
             
             navigator = NavigatorScraper(browser)
             navigator.get_next_link()
@@ -76,7 +78,7 @@ class StudyScraper:
       study.detailed_description = self.get_text_by_title('Detailed Description')
       study.start_date = self.get_text_by_title('Start Date')
       study.completion_date = self.get_text_by_title('Completion Date')
-      study.condition = self.get_text_by_title('Condition  ICMJE')
+      study.condition = self.get_text_by_title('Condition')
       study.intervention = self.get_text_by_title('Intervention')
       study.study_type = self.get_text_by_title('Study Type')
       study.study_population = self.get_text_by_title('Study Population') 
@@ -91,7 +93,7 @@ class StudyScraper:
   def get_text_by_title(self, title):
       td = None
       try:
-          th = self.browser.find_element_by_xpath("//*[contains(text(), '" + title + "')]") 
+          th = self.browser.find_element_by_xpath("//th[contains(text(), '" + title + "')]") 
           tr = th.find_element_by_xpath("./..");
           td = tr.find_element_by_xpath(".//td[1]")
       except:
