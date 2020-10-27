@@ -37,7 +37,6 @@ class Scraper:
         file_name = 'studies.csv'
         file = open(file_name, 'w', encoding='utf-8', newline='')
         writer = csv.writer(file, delimiter=';')
-        print(self.study_scraper.get_header())
         writer.writerow(self.study_scraper.get_header())
         with file:
             for study in self.lines:
@@ -58,11 +57,5 @@ class Scraper:
                                  study.sex_gender,
                                  study.eligibility_criteria,
                                  study.estimated_enrollment
-                                ])
-
-
-
- 
-    
-                
+                                ])             
     

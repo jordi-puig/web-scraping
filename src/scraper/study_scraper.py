@@ -42,7 +42,6 @@ class StudyScraper:
       except:
           print("not exists element: ", title)
       return None if td is None else td.text
-  
     
   def get_header(self):
       header = []
