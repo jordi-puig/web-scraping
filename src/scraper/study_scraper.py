@@ -42,4 +42,25 @@ class StudyScraper:
       except:
           print("not exists element: ", title)
       return None if td is None else td.text
+    
+  def get_header(self):
+      header = []
+      header.append('NCT Number')
+      header.append('Brief Title')
+      header.append('Official Title')
+      header.append('Brief Summary')
+      header.append('Detailed Description')
+      header.append('Start Date')
+      header.append('Completion Date')
+      header.append('Condition')
+      header.append('Intervention')
+      header.append('Study Type')
+      header.append('Study Population')      
+      header.append('Study Groups/Cohorts')
+      header.append('Phase')      
+      header.append('Ages')
+      header.append('Sex/Gender')
+      header.append('Eligibility Criteria')
+      header.append('Estimated Enrollment')       
+      return header   
  

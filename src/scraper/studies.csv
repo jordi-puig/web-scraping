@@ -1,5 +1,66 @@
-NCT04359303;Indirect Endovenous Systemic Ozone for New Coronavirus Disease (COVID19) in Non-intubated Patients;Randomized Clinical Trial to Evaluate Efficacy and Safety of Systemic Indirect Endovenous Ozone Therapy (SIEVOT) as Adjuvant Treatment in COVID19 Non-intubated Patients
-NCT04469647;COVID 19 Seroprevalence Amongst Healthcare Workers in JHAH;COVID 19 Antibody Seroprevalence Amongst Healthcare Workers in Johns Hopkins Aramco Healthcare
-NCT04427254;Study of the Sars-Cov2 Neuroinvasiveness - COVID19;Study of the Sars-Cov2 Neuroinvasiveness - COVID19
-NCT04377685;Prediction of Clinical Course in COVID19 Patients;Prediction of Clinical Course in COVID19 Patients Using Unsupervised Classification Approaches of Clinical, Biological and the Multiparametric Signature of the Chest CT Scan Performed at Admission
-NCT04386668;Let It Out (LIO) and COVID19: Testing an Online Emotional Disclosure-based Intervention During the COVID19 Pandemic;Let It Out (LIO) and COVID19: a Randomised Controlled Trial of an Online Emotional Disclosure-based Intervention for Adults During the COVID19 Pandemic
+NCT Number;Brief Title;Official Title;Brief Summary;Detailed Description;Start Date;Completion Date;Condition;Intervention;Study Type;Study Population;Study Groups/Cohorts;Phase;Ages;Sex/Gender;Eligibility Criteria;Estimated Enrollment
+NCT04359303;Indirect Endovenous Systemic Ozone for New Coronavirus Disease (COVID19) in Non-intubated Patients;Randomized Clinical Trial to Evaluate Efficacy and Safety of Systemic Indirect Endovenous Ozone Therapy (SIEVOT) as Adjuvant Treatment in COVID19 Non-intubated Patients;Systemic medical ozone has proved to help in several viral diseases, chronic obstructive pulmonary disease and chronic inflammation process. The investigators are sure that its application to COVID-19 patients, as an adjuvant therapy, will improve the health status of these individuals.;"Due to the extreme world situation caused by COVID19 pandemic, the investigators consider unethical not to try any treatment option with a justified rationale.
+The investigators have explained that medical ozone therapy has a clear scientific basement thanks to all preclinical and clinical investigation already published. It can be classified as chemical stressor that produces a modulation in the redox balance and immunity. Moreover, it is easy and safe to administer with insignificant side effects.
+The efficacy in viral diseases has been proved in publications together the modulation of interleukin 6 and other proinflammatory cytokines that could potentially help in COVID19 patients. The improve of exchange of gases and microcirculation will surely contribute to enhance this patients' health status.
+As explained above, the investigators propose to carry out a randomized control trial to evaluate the safety and efficacy of systemic ozone (indirect endovenous) in these patients.";July 2020;November 2020   (Final data collection date for primary outcome measure);COVID;"Other: Systemic indirect endovenous ozone therapy
+200 mL at 40 mcg/mL of medical ozone / oxygen in 200 mL of patients blood mixed in an homologated device for the procedure.";Interventional;;;Phase 3;18 Years and older   (Adult, Older Adult);Sexes Eligible for Study: All;"Inclusion Criteria:
+COVID19 virus detected in oro/nasopharynx
+mild ill according WHO numeric scale
+mild ill according Berlin criteria
+non intubated patients
+signed informed consent
+Exclusion Criteria:
+patients treated with systemic ozone in the last 6 months
+patients treated before with systemic ozone and referring any side effect
+glucose-6-phosphate-dehydrogenase deficit
+other severe concomitant disease apart from COVID19
+psychiatric disease specified in axis I of l Diagnostic and Statistical Manual of Mental Disorders, 5 edition, but major depression
+patients not capable of understanding the study methods and targets
+pregnant woman";50
+NCT04469647;COVID 19 Seroprevalence Amongst Healthcare Workers in JHAH;COVID 19 Antibody Seroprevalence Amongst Healthcare Workers in Johns Hopkins Aramco Healthcare;"Healthcare workers play a critical role in fighting the pandemic, not only by managing the patients' health clinically, but also by implementing adequate measures for infection prevention and control in healthcare facilities. This puts healthcare workers at a greater risk of acquiring the disease. COVID-19 is caused by Severe Acute Respiratory Syndrome Coronavirus -2 (SARS-CoV-2) and many people can be infected with it asymptomatically and undetectably.
+Serology is an antibody test that provides additional information to polymerase chain-reaction (PCR) testing as it is the only way to reliably establish the fraction of the population that was infected . Seroconversion is the development of antibodies in the blood which can confirm suspected cases after the fact and reveal who was infected but asymptomatic and never realized it. Antibodies are specific proteins created as the body's response to the infection and this test is essential for detecting infected individuals with few or no symptoms at all.";Not Provided;July 19, 2020;January 15, 2021   (Final data collection date for primary outcome measure);COVID 19;"Diagnostic Test: Serology Test
+Participants will be seen at T0 (baseline),T2 (2 months after T0), and T4 (2 months after T2).
+at every visit, participants will be asked to complete a general surveillance survey and a blood sample will be taken for the serology test.";Observational;Healthcare workers, divided into two groups (High-risk and Low-risk).;"High-risk
+Employees at high-risk of Coronavirus exposure areas (physicians, nurses, respiratory therapists, radiology technologists, lab technologists, housekeepers)
+Intervention: Diagnostic Test: Serology Test
+Low-risk
+Employees working at lower risk areas such as (administration, HR, Public relations)
+Intervention: Diagnostic Test: Serology Test";;18 Years and older   (Adult, Older Adult);Sexes Eligible for Study: All;"Inclusion Criteria:
+Adult.
+JHAH employee
+Housekeepers (this group of staff are outsourced at JHAH)
+Exclusion Criteria:
+1. Any participant exhibiting COVID 19 symptoms";1200
+NCT04427254;Study of the Sars-Cov2 Neuroinvasiveness - COVID19;Study of the Sars-Cov2 Neuroinvasiveness - COVID19;Sars-Cov2 (COVID-19) may invade the CNS inducing neurological diseases such as anosmia, ageusia, encephalitis, ischemic or hemorrhagic stroke. Management of severe neurological complications in COVID-19 patients may require ventricular cerebrospinal fluid drainage and cranial decompression. During surgery, cerebrospinal fluid, meninges and brain parenchyma can be safely removed from the patient. In this study, COVID-19 patients will be evaluated first, for the presence of Sars-Cov2 in the cerebrospinal fluid and/or biopsies and second, for the consequences of Sars-Cov2 neuroinfection in terms of inflammatory and immune responses.;Not Provided;January 2021;January 2023   (Final data collection date for primary outcome measure);COVID19;"Drug: Cerebrospinal fluid sampling, meningeal and brain parenchyma biopsies
+Cerebrospinal fluid sampling, meningeal and brain parenchyma biopsies";Interventional;;;Not Applicable;18 Years and older   (Adult, Older Adult);Sexes Eligible for Study: All;"Inclusion Criteria:
+COVID-19 patients requiring an external ventricular drain, a decompressive craniectomy or an intracranial hematoma surgery
+Exclusion Criteria:
+Pregnant or lactating women";500
+NCT04377685;Prediction of Clinical Course in COVID19 Patients;Prediction of Clinical Course in COVID19 Patients Using Unsupervised Classification Approaches of Clinical, Biological and the Multiparametric Signature of the Chest CT Scan Performed at Admission;"In the context of the COVID19 pandemic and containment, chest CT is currently frequently performed on admission, looking for suggestive signs and basic abnormalities of COVID19 compatible viral pneumonitis pending confirmation of identification of viral RNA by reverse-transcription polymerase chain reaction(PCR), with a reported sensitivity of 56-88% in the first few days, slightly higher than PCR (60%) (1). Nevertheless, currently established radiological abnormalities are not specific for COVID19 and the specificity of the chest CT is ~25% when PCR is used as a reference (1). Deconfinement and its consequences will complicate the triage of COVID patients and the role of the scanner, with the expected impact of a decrease in the prevalence of infection in the emergency department and an increase in the number of ""all-round"" patients, including patients with non-COVID viral infiltrates or pneumopathies.
+In addition, there are currently no imaging criteria to complement the clinical and biological data that can predict the progression of lung disease from the initial data.";In image processing, computational medical imaging has demonstrated its ability to predict a therapeutic response or a particular evolution after extracting relevant anatomical, functional or even non-visually perceptible information from the volume of images, making it possible to construct a powerful radiomic signature or to use robust anatomical/functional measurements to provide estimates of ventilation or vascular state. By combining these data extracted from the scanner with the standard clinical-biological data produced at admission during triage, our ambition is to build a predictive model using unsupervised classification approaches capable of helping predict clinical evolution with the aim of optimizing the management of the resource.;March 1, 2020;September 30, 2020   (Final data collection date for primary outcome measure);COVID 19;"Other: CT-Scan
+Chest CT scan on admission to the hospital";Observational;patient admitted to the emergency room of COVID-19 confirmed by RT-PCR;"COVID19 patients
+Patient tested positive for SARS-CoV-2 who had a CT scan
+Intervention: Other: CT-Scan";;18 Years and older   (Adult, Older Adult);Sexes Eligible for Study: All;"Inclusion Criteria:
+age ≥ 18 years
+clinical suspicion of COVID-19 confirmed by RT-PCR
+CT scan at ER admission
+RT-PCR sampling
+Exclusion Criteria:
+CT scan failure or loss of CT data
+RT-PCR initial results unavailable";800
+NCT04386668;Let It Out (LIO) and COVID19: Testing an Online Emotional Disclosure-based Intervention During the COVID19 Pandemic;Let It Out (LIO) and COVID19: a Randomised Controlled Trial of an Online Emotional Disclosure-based Intervention for Adults During the COVID19 Pandemic;"A randomised controlled trial designed to test whether an online expressive writing intervention (LIO-C) can reduce distress for English-speaking adults during the global COVID19 pandemic.
+Hypothesis: LIO-C will improve distress (as measured by K10) in adults at 1 week post-intervention compared to a neutral writing control during the COVID19 pandemic.";"The world is currently experiencing unprecedented challenges caused by the global coronavirus (COVID19) pandemic. Many countries are enforcing measures to restrict movement of people to reduce the spread of the outbreak, including lock-downs, social distancing and self-isolation. These methods, although necessary to slow the spread of disease, will have negative effects on psychological well-being of large populations. Shortage of health care professionals and measures to restrict interpersonal contact means facilitated psychological interventions will not be feasible for many, at least during the height of the pandemic. There is therefore a need for self-directed psychological interventions that can be practically and quickly implemented online.
+Emotional disclosure-based therapies, such as expressive writing (EW), hold potential as low-cost, easy to implement means of support, with minimal requirement for facilitation. In its original format, EW involved writing daily for 15-20 minutes for 3-4 days about a traumatic event. Since its development, it has been adapted in many ways, including writing about positive events and writing about stress from a compassionate stance. There is evidence that such interventions can provide significant psychological and physical benefits in healthy populations and reduce the effects of natural disasters on health and well-being. However, to our knowledge this form of psychological intervention has not been tested during a rapidly evolving crisis or pandemic.
+The aim of this study is to test whether an online self-compassion and EW based intervention (LIO-C) can reduce the negative effects of the COVID19 pandemic on health and well-being. The intervention is based on an existing intervention, LIO, that we previously developed for use in advanced disease populations, in collaboration with clinical and health psychologists, and patient and public representatives. For this study, we have adapted the intervention for people living through the current COVID19 pandemic by altering the writing prompts, and translating the intervention to an online hub. As this is an unfacilitated intervention, the instructions involve writing from a compassionate stance to minimise any potential short term negative effects associated with writing about difficult experiences.";May 26, 2020;July 12, 2020   (Final data collection date for primary outcome measure);COVID19;"Other: Let It Out (LIO)-C
+Participants complete three online 20-minute writing sessions in response to prompts asking them to write about their experiences during the COVID19 pandemic from a self-compassionate perspective
+Other Names:
+expressive writing
+emotional disclosure
+expressive disclosure
+therapeutic writing
+Other: Neutral writing control
+Participants complete three online 20-minute writing sessions in response to neutral writing prompts";Interventional;;;Not Applicable;18 Years and older   (Adult, Older Adult);Sexes Eligible for Study: All;"Inclusion Criteria:
+English speaking adults over the age of 18
+Able to read and write clearly in English
+Exclusion Criteria:
+None";286
