@@ -14,6 +14,7 @@ class Scraper:
     
     def __init__(self):
         self.lines = []
+        self.study_scraper = None
 
     def process_scraping(self):
         current_path = 'https://clinicaltrials.gov/ct2/show/record/NCT04359303?cond=COVID&draw=3&rank=1&view=record'
@@ -23,8 +24,8 @@ class Scraper:
         
         while (len(self.lines) < 5):
             print('process page:', len(self.lines) +1)
-            study_scraper = StudyScraper(browser.get_current_page())
-            study = study_scraper.get_study()
+            self.study_scraper = StudyScraper(browser.get_current_page())
+            study = self.study_scraper.get_study()
             self.lines.append(study)
             print('page:', study.id, 'processed')
             
@@ -36,8 +37,32 @@ class Scraper:
         file_name = 'studies.csv'
         file = open(file_name, 'w', encoding='utf-8', newline='')
         writer = csv.writer(file, delimiter=';')
+        print(self.study_scraper.get_header())
+        writer.writerow(self.study_scraper.get_header())
         with file:
             for study in self.lines:
-                writer.writerow([study.id, study.title, study.official_title])
+                writer.writerow([study.id, 
+                                 study.title, 
+                                 study.official_title, 
+                                 study.brief_summary,
+                                 study.detailed_description,
+                                 study.start_date,
+                                 study.completion_date,
+                                 study.condition,
+                                 study.intervention,
+                                 study.study_type,
+                                 study.study_population,
+                                 study.study_groups,
+                                 study.phase,
+                                 study.ages,
+                                 study.sex_gender,
+                                 study.eligibility_criteria,
+                                 study.estimated_enrollment
+                                ])
+
+
+
+ 
+    
                 
     
