@@ -22,15 +22,20 @@ class Scraper:
         browser = Browser(current_path)
         browser.start()
         
-        while (len(self.lines) < 5):
-            print('process page:', len(self.lines) +1)
-            self.study_scraper = StudyScraper(browser.get_current_page())
-            study = self.study_scraper.get_study()
-            self.lines.append(study)
-            print('page:', study.id, 'processed')
+        more_pages = True
+        while (more_pages and len(self.lines) < 5):
+            try:    
+                print('processing page:', len(self.lines) +1, ' ...')
+                self.study_scraper = StudyScraper(browser.get_current_page())
+                study = self.study_scraper.get_study()
+                self.lines.append(study)
+                print('page:', study.id, 'processed')
+                
+                browser.navigate()
+            except:
+                print('no more pages to scrap')
+                more_pages = False
             
-            browser.navigate()
-
         browser.stop()
         
     def data_to_csv(self):
@@ -57,5 +62,11 @@ class Scraper:
                                  study.sex_gender,
                                  study.eligibility_criteria,
                                  study.estimated_enrollment
-                                ])             
+                                ])
+
+
+
+ 
+    
+                
     
