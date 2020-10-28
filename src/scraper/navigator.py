@@ -10,8 +10,12 @@ class NavigatorScraper:
       
   def get_next_link(self):
       class_name = 'tr-next-link'
-      next_link = self.browser.find_element_by_class_name(class_name)
-      next_link.click()
+      try:
+          next_link = self.browser.find_element_by_class_name(class_name)
+          next_link.click()
+      except:
+          raise Exception('not exists the next link')
+          
 
   def get_previous_link(self):
       class_name = 'tr-prev-link'
