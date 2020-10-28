@@ -5,12 +5,14 @@ Created on Sun Oct 18 15:29:47 2020
 @author: jpuig
 """
 
+from scraper import Scraper
+
 class Main:
    
-  test = Scraper()
+  scraper = Scraper() 
   print('scraping process starting...')  
-  test.process_scraping()
+  scraper.process_scraping()
   print('scraping process ended')  
   print('saving data to csv...')
-  test.data_to_csv()
+  scraper.data_to_csv()
   print('data to csv saved')  

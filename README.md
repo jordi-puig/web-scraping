@@ -38,6 +38,11 @@ El Dataset descarregat conté els següents camps per a cada registre:
 - pip install selenium
 - pip install webdriver-manager
 - pip install fake-useragent
+## Executar
+Per executar fem el següent:
+```
+python -m main.py
+```
 ## Recursos
 ## Llicencia utilitzada
 ## Agraïments
