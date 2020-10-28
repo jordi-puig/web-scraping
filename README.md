@@ -41,7 +41,7 @@ El Dataset descarregat conté els següents camps per a cada registre:
 ## Executar
 Per executar fem el següent:
 ```
-python -m main.py
+python main.py
 ```
 ## Recursos
 ## Llicencia utilitzada
