@@ -10,6 +10,7 @@ class NavigatorScraper:
       
   def get_next_link(self):
       class_name = 'tr-next-link'
+
       try:
           next_link = self.browser.find_element_by_class_name(class_name)
           next_link.click()

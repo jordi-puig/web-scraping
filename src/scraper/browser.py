@@ -38,7 +38,7 @@ class Browser:
         return self.browser 
 
     def navigate(self):
-        self.navigator.get_next_link()     
-               
+        self.navigator.get_next_link()           
+
     def stop(self):
         self.browser.close()           
