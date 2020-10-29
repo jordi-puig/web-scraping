@@ -1,16 +1,16 @@
-# Practica 1 - Web scraping - Estudis Clínics
+# Estudis Clínics COVID (Web Scraping)
 ## Descripció de l'objectiu
-L'objectiu d'el projecte és extreure un conjunt de proves clíniques realitzades arreu del món amb la finalitat de realitzar estudis estadístics i Data Mining .
-La web [ClinicalTrials.gov](https://clinicaltrials.gov/ct2/about-site/crawling) és una base de dades d’estudis clínics finançats amb fons privats i públics realitzats a tot el món.
+L'objectiu del projecte és extreure un conjunt de proves clíniques realitzades per la COVID arreu del món amb la finalitat de realitzar estudis estadístics i Data Mining .
+La web [ClinicalTrials.gov](https://clinicaltrials.gov) és una base de dades d’estudis clínics finançats amb fons privats i públics realitzats a tot el món.
 
 Alhora d'obtenir les dades realitzem un rastreig de la web. Anem recorrent els diferents elements del resultat de cerca i es desacarrega aquesta informació en un document CSV.
 
-També realitzem un control del espaiat entre les diferents peticions que es realitan per tal de no saturar el servidor remot.
-
 ## Membres de l'equip
-Aquesta pràctica ha estat realitzada integrament per l'alumne Jordi Puig
-## Camps del DataSet
-El Dataset descarregat conté els següents camps per a cada registre:
+Aquesta pràctica ha estat realitzada integrament per l'alumne de la UOC Jordi Puig
+## Descripció del DataSet
+El Dataset descarregat conté informació de cada una de les proves clíniques realitzades per COVID i emmagatzemades en la web [ClinicalTrials.gov](https://clinicaltrials.gov)
+Cada un d'aquests registres està composat per aquests camps:
+
 - Id: Identificador del registre (string)
 - Title: Títol (string)
 - Official Title: Títol oficial (string)
@@ -28,12 +28,12 @@ El Dataset descarregat conté els següents camps per a cada registre:
 - Sexes: Sexes dels particioants (string)
 - Participants: Nombre de participants (enter) 
 - Eligibility Criteria: Criteri per incloure els participants a l'estudi (string)
- 
-
-## Fitxers del codi font
+## Extensió de la pràctica
+## Representació gràfica
+## Inspiració
+## Codi font
+## Implementació
 ## Configuració previa:
-- curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-- python get-pip.py
 - pip install selenium
 - pip install webdriver-manager
 - pip install fake-useragent
