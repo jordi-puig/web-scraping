@@ -5,11 +5,10 @@ La web [ClinicalTrials.gov](https://clinicaltrials.gov/ct2/about-site/crawling) 
 
 Alhora d'obtenir les dades realitzem un rastreig de la web. Anem recorrent els diferents elements del resultat de cerca i es desacarrega aquesta informació en un document CSV.
 
-Es realitza un control sobre els elements ja descarregats per a no repetir registres.
-
 També realitzem un control del espaiat entre les diferents peticions que es realitan per tal de no saturar el servidor remot.
 
 ## Membres de l'equip
+Aquesta pràctica ha estat realitzada integrament per l'alumne Jordi Puig
 ## Camps del DataSet
 El Dataset descarregat conté els següents camps per a cada registre:
 - Id: Identificador del registre (string)
