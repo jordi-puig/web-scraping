@@ -1,4 +1,4 @@
-# Practica 1 - Web scraping
+# Practica 1 - Web scraping - Estudis Clínics
 ## Descripció de l'objectiu
 L'objectiu d'el projecte és extreure un conjunt de proves clíniques realitzades arreu del món amb la finalitat de realitzar estudis estadístics i Data Mining .
 La web [ClinicalTrials.gov](https://clinicaltrials.gov/ct2/about-site/crawling) és una base de dades d’estudis clínics finançats amb fons privats i públics realitzats a tot el món.
