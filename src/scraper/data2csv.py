@@ -4,7 +4,6 @@ Created on Sun Oct 25 17:03:08 2020
 
 @author: jpuig
 """
-
 import csv 
 
 class Data2CSV:
@@ -13,7 +12,7 @@ class Data2CSV:
       self.header = header
       self.lines = lines
       
-def data_to_csv(self):
+  def save_csv(self):
         file_name = self.name
         file = open(file_name, 'w', encoding='utf-8', newline='')
         writer = csv.writer(file, delimiter=';')
