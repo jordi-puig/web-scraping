@@ -28,7 +28,7 @@ Cada un d'aquests registres està composat per aquests camps:
 - Sexes: Sexes dels particioants (string)
 - Participants: Nombre de participants (enter) 
 - Eligibility Criteria: Criteri per incloure els participants a l'estudi (string)
-## Extensió de la pràctica
+
 ## Representació gràfica
 ## Inspiració
 ## Codi font
@@ -42,6 +42,15 @@ Per executar fem el següent:
 ```
 python main.py
 ```
+## Extensió de la pràctica
+La práctica está orientada a obtenir les dades dels estudis científics per COVID però he fet una ampliació per a recuperar qualsevol estudi científic amb un criterir de cerca.
+Per a obtenir aquests registres realitzem l'execució que hem comentat en el punt previ però de la forma següent:
+Per executar fem el següent:
+```
+python main.py cancer
+```
+I ens descarregarà els estudis que tenen com a keyword la paraula cancer. 
+Per defecte la keyword és COVID.
 ## Recursos
 ## Llicencia utilitzada
 ## Agraïments
