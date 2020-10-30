@@ -8,7 +8,8 @@ Alhora d'obtenir les dades realitzem un rastreig de la web. Anem recorrent els d
 ## Membres de l'equip
 Aquesta pràctica ha estat realitzada integrament per l'alumne de la UOC Jordi Puig
 ## Descripció del DataSet
-El Dataset descarregat conté informació de cada una de les proves clíniques realitzades per COVID i emmagatzemades en la web [ClinicalTrials.gov](https://clinicaltrials.gov)
+El Dataset descarregat conté informació de cada una de les proves clíniques realitzades per COVID i emmagatzemades a la web [ClinicalTrials.gov](https://clinicaltrials.gov).
+
 Cada un d'aquests registres està composat per aquests camps:
 
 - Id: Identificador del registre (string)
@@ -32,6 +33,14 @@ Cada un d'aquests registres està composat per aquests camps:
 ## Representació gràfica
 ## Inspiració
 ## Codi font
+El codi font està format per els següents fitxers cada un amb una responsabilitat específica [SRP](https://en.wikipedia.org/wiki/Single-responsibility_principle) i amb orientació a objectes:
+- main.py: és la classe principal que rep la petició i arrenca tot el procés
+- scraper.py: és la classe que s'encarrega de realitzar el procés d'scraping i emmagatzemar el fitxer csv..
+- browser.py: fa la navegació. Embolcalla un objecte de Selenium i realitza la navegació per les págines.
+- navigator.py: a partir de la página del navegador permet anar a la següent pàgina o l'anterior.
+- study_scraper.py: fa scraping d'una pàgina d'estudi.
+- study.py: és l'entitat study
+- data2csv.py: guarda els registes generats de l'scraping realitzat a un fitxer csv 
 ## Implementació
 ## Configuració previa:
 - pip install selenium
@@ -44,12 +53,15 @@ python main.py
 ```
 ## Extensió de la pràctica
 La práctica está orientada a obtenir les dades dels estudis científics per COVID però he fet una ampliació per a recuperar qualsevol estudi científic amb un criterir de cerca.
+
 Per a obtenir aquests registres realitzem l'execució que hem comentat en el punt previ però de la forma següent:
+
 Per executar fem el següent:
 ```
 python main.py cancer
 ```
-I ens descarregarà els estudis que tenen com a keyword la paraula cancer. 
+I ens descarregarà els estudis que tenen com a keyword la paraula cancer.
+
 Per defecte la keyword és COVID.
 ## Recursos
 ## Llicencia utilitzada
