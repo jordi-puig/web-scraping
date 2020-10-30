@@ -39,8 +39,9 @@ class Scraper:
     def data_to_csv(self):
         file_name = 'studies.csv'
         header = self.study_scraper.get_header()
+                
         data2csv = Data2CSV(file_name, header, self.lines)      
-        data2csv.data_to_csv()
+        data2csv.save_csv()
 
 
 
