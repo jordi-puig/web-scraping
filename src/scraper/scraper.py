@@ -14,9 +14,13 @@ class Scraper:
         self.lines = []
         self.study_scraper = None
 
-    def process_scraping(self):
-        current_path = 'https://clinicaltrials.gov/ct2/show/record/NCT04359303?cond=COVID&draw=3&rank=1&view=record'
-                
+    def process_scraping(self, text):
+        if (text is None):
+            current_path = 'https://clinicaltrials.gov/ct2/show/record/?cond=COVID&draw=3&rank=1&view=record'
+        else: 
+            current_path = 'https://clinicaltrials.gov/ct2/show/record/?cond=' + text + '&draw=3&rank=1&view=record'
+        
+        print('scraping the url:', current_path)
         browser = Browser(current_path)
         browser.start()
         
@@ -42,6 +46,7 @@ class Scraper:
                 
         data2csv = Data2CSV(file_name, header, self.lines)      
         data2csv.save_csv()
+
 
 
 
