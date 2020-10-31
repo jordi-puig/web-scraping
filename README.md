@@ -12,24 +12,33 @@ El Dataset descarregat conté informació de cada una de les proves clíniques r
 
 Cada un d'aquests registres està composat per aquests camps:
 
+### Dades de l'estudi
 - Id: Identificador del registre (string)
-- Title: Títol (string)
+- Brief Title: Títol (string)
 - Official Title: Títol oficial (string)
-- Brief_Summary: Descripció curta (string)
-- Detailed_Description: Descripció detallada (string) 
-- Start Date: Data d'inici (date)
-- Completion Date: Data de finalització (date)
+- Brief Summary: Descripció curta (string)
+- Detailed Description: Descripció detallada (string)
+- Study Type: Tipus d'estudi a realitzar (p.ex. COVID) (string)
+- Study Phase: Fase en la que es troba l'estudi (string)
+- Study Design: Disseny de l'estudi (string)
 - Condition/Disease: Malaltia o condició a tractar (string)
 - Intervention/Treatment: Intervencions realitzades o tractaments (string)
-- Study Type: Tipus d'estudi (categorical)
-- Study Population: Població a estudiar (string)
-- Study Groups: Grups d'estudi (string)
-- Phase: Fase en la que es trova (categorical)
-- Ages: Edats del participants (string)
-- Sexes: Sexes dels particioants (string)
-- Participants: Nombre de participants (enter) 
+- Study Arms: Grups d'estudi (string)
+- Start Date: Data d'inici (date)
+- Completion Date: Data de finalització (date)
+### Dades dels participants en l'estudi
+- Estimated Enrollment: Nombre de participants (enter) 
 - Eligibility Criteria: Criteri per incloure els participants a l'estudi (string)
-
+- Sex/Gender: Sexes dels particioants (string)
+- Ages: Edats del participants (string)
+- Study Population: Població a estudiar (string)
+- Study Groups/Cohorts: Grups d'estudi (string)
+- Listed Location Countries: Països dels participants en l'estudi (string)
+### Responsables / Sponsors
+- Responsible Party: Responsables del projecte (string)
+- Study Sponsor: Sponsors que paricipen (string)
+- Collaborators: Col·laboradors de l'estudi (string)
+- Investigators: Grup d'investigadors (string)
 ## Representació gràfica
 ## Inspiració
 ## Codi font
