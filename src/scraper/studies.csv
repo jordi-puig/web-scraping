@@ -1,114 +1,66 @@
 NCT Number;Brief Title;Official Title;Brief Summary;Detailed Description;Start Date;Completion Date;Condition;Intervention;Study Type;Study Population;Study Groups/Cohorts;Phase;Ages;Sex/Gender;Eligibility Criteria;Estimated Enrollment
-NCT04360330;SABER Study for Selected Early Stage Breast Cancer;Phase I Study to Evaluate the Safety and Feasibility of Preoperative Ablative Breast Radiotherapy (SABER) for Selected Early Stage Breast Cancer;The purpose of this study is to find the most effective dose of radiation therapy to give to breast tumors in a shorter period of time, prior to standard partial mastectomy/axillary surgery.;Not Provided;August 5, 2020;August 2023   (Final data collection date for primary outcome measure);"Breast Cancer
-Early-stage Breast Cancer";"Radiation: Stereotactic Ablative Breast Radiotherapy
-Preoperative SABER: Participants will be treated with an assigned dose level of preoperative SABER, delivered in once a day, 5 fractions given on non-consecutive days, over a period of 2 weeks. In this phase I study, starting with dose level II, a dose level of preoperative SABER will be assigned per study dose-escalation design, treating 2 to 6 patients per dose level. The tested doses are the following:
-Dose Level I: 35 Gy (5 fractions of 7 Gy)
-Dose Level II (Starting Dose): 40 Gy (5 fractions of 8 Gy)
-Dose Level III: 45 Gy (5 fractions of 9 Gy)
-Dose Level IV: 50 Gy (5 fractions of 10 Gy)
-Other Name: SABER";Interventional;;;Not Applicable;50 Years and older   (Adult, Older Adult);Sexes Eligible for Study: Female;"Inclusion Criteria:
-Female, ≥ 50 years of age.
-Histologically confirmed invasive breast cancer.
-Clinical stage T1N0M0.
-Receptor status: Estrogen-Receptor (ER)/Progesterone-Receptor (PR) positive and Human Epidermal Growth Factor Receptor 2 (HER2) negative.
-Unifocal breast cancer.
-Eastern Cooperative Oncology Group (ECOG) 0, 1.
-Ability to undergo MRI.
-Women of child-bearing potential (WOCBP) must agree to use adequate contraception or agree to undergo sexual abstinence prior to study entry and for the duration of study participation. WOCBP must have a negative serum or urine pregnancy test at time of enrollment. Should a woman become pregnant or suspect she is pregnant while she is participating in this study, she should inform her treating physician immediately.
-Ability to understand the investigational nature, potential risks and benefits of the research study and willingness to sign the written informed consent and HIPAA document(s).
+NCT04359303;Indirect Endovenous Systemic Ozone for New Coronavirus Disease (COVID19) in Non-intubated Patients;Randomized Clinical Trial to Evaluate Efficacy and Safety of Systemic Indirect Endovenous Ozone Therapy (SIEVOT) as Adjuvant Treatment in COVID19 Non-intubated Patients;Systemic medical ozone has proved to help in several viral diseases, chronic obstructive pulmonary disease and chronic inflammation process. The investigators are sure that its application to COVID-19 patients, as an adjuvant therapy, will improve the health status of these individuals.;"Due to the extreme world situation caused by COVID19 pandemic, the investigators consider unethical not to try any treatment option with a justified rationale.
+The investigators have explained that medical ozone therapy has a clear scientific basement thanks to all preclinical and clinical investigation already published. It can be classified as chemical stressor that produces a modulation in the redox balance and immunity. Moreover, it is easy and safe to administer with insignificant side effects.
+The efficacy in viral diseases has been proved in publications together the modulation of interleukin 6 and other proinflammatory cytokines that could potentially help in COVID19 patients. The improve of exchange of gases and microcirculation will surely contribute to enhance this patients' health status.
+As explained above, the investigators propose to carry out a randomized control trial to evaluate the safety and efficacy of systemic ozone (indirect endovenous) in these patients.";July 2020;November 2020   (Final data collection date for primary outcome measure);COVID;"Other: Systemic indirect endovenous ozone therapy
+200 mL at 40 mcg/mL of medical ozone / oxygen in 200 mL of patients blood mixed in an homologated device for the procedure.";Interventional;;;Phase 3;18 Years and older   (Adult, Older Adult);Sexes Eligible for Study: All;"Inclusion Criteria:
+COVID19 virus detected in oro/nasopharynx
+mild ill according WHO numeric scale
+mild ill according Berlin criteria
+non intubated patients
+signed informed consent
 Exclusion Criteria:
-Patients without histologically confirmed invasive breast cancer.
-Patients with metastatic disease.
-ECOG 2, 3, 4.
-Patients that are unable to undergo MRI.
-Prior history of radiation to the chest.
-History of collagenous disease (systemic lupus erythematosus, scleroderma, dermatomyositis).
-Any serious medical or psychiatric illness/condition likely in the judgment of the Investigator(s) to interfere or limit compliance with study requirements/treatment.
-Diagnosis of another primary malignancy within the last 5 years with the exception of non-melanoma skin cancer.
-Patients unable to consent, who are pregnant or nursing, or are prisoners.";18
-NCT04315831;Safety and Effectiveness of Transdermal Buprenorphine in Cancer Pain;Safety and Effectiveness of Transdermal Buprenorphine in Cancer Pain: an Observational Study (SOOTHE);"Buprenorphine transdermal patch is newly available in Taiwan in June 2017, the trade name is Transtec, and the available dosages are 35 μg/h and 52.5 μg/h. Taiwan is the first Asia country which launched Transtec for cancer pain treatment. Although the efficacy of transdermal buprenorphine has been demonstrated in some randomized, placebo-controlled studies and also conducted a large scale post-marketing surveillance study in Germany, therefore the local scientific data is required for Asia experience. Due to above rationale, this observational study will be initiated in Taiwan, to build up the first real-world scientific data in Asia.
-The objective of this study is to collect the safety and effectiveness of transdermal buprenorphine in routine clinical practice, in particular, to collect data in population with controlled cancer pain and stable titration from previous opioid analgesics in Taiwan.";The objective of this observational study is to collect effectiveness and safety data on the labelled use of buprenorphine transdermal patches (Transtec 35 μg/h and 52.5 μg/h) under regular and routine clinical conditions in Taiwan for cancer patients with moderate to severe cancer pain (NRS Score>=4) and strong opioids are needed for their pain treatment.;January 31, 2018;March 31, 2019   (Final data collection date for primary outcome measure);Cancer;"Drug: Transdermal Buprenorphine
-Intervention will be applied for patients with moderate to severe cancer pain
-Other Name: no other intervention";Observational;Caner patients with moderate to severe cancer pain;Not Provided;;20 Years and older   (Adult, Older Adult);Sexes Eligible for Study: All;"Inclusion Criteria:
-Cancer patients aged 20 years old and over
-ECOG <3
-Moderate or severe pain intensity with stable titration from previous opioid analgesics, 7 days at least prior to enrolment and with the dose equivalent to oral morphine ranging from 60 to 120 mg/day in previous treatment
-Cancer-related pain that requires treatment with continuous around-the-clock strong opioid analgesic
-Patients who are going to start Transtec treatment per clinical judgment, according to the locally approved labeling, are eligible.
-Patients who are able to communicate and fill out the questionnaire forms
-Patient provided signed informed consent
+patients treated with systemic ozone in the last 6 months
+patients treated before with systemic ozone and referring any side effect
+glucose-6-phosphate-dehydrogenase deficit
+other severe concomitant disease apart from COVID19
+psychiatric disease specified in axis I of l Diagnostic and Statistical Manual of Mental Disorders, 5 edition, but major depression
+patients not capable of understanding the study methods and targets
+pregnant woman";50
+NCT04469647;COVID 19 Seroprevalence Amongst Healthcare Workers in JHAH;COVID 19 Antibody Seroprevalence Amongst Healthcare Workers in Johns Hopkins Aramco Healthcare;"Healthcare workers play a critical role in fighting the pandemic, not only by managing the patients' health clinically, but also by implementing adequate measures for infection prevention and control in healthcare facilities. This puts healthcare workers at a greater risk of acquiring the disease. COVID-19 is caused by Severe Acute Respiratory Syndrome Coronavirus -2 (SARS-CoV-2) and many people can be infected with it asymptomatically and undetectably.
+Serology is an antibody test that provides additional information to polymerase chain-reaction (PCR) testing as it is the only way to reliably establish the fraction of the population that was infected . Seroconversion is the development of antibodies in the blood which can confirm suspected cases after the fact and reveal who was infected but asymptomatic and never realized it. Antibodies are specific proteins created as the body's response to the infection and this test is essential for detecting infected individuals with few or no symptoms at all.";Not Provided;July 19, 2020;January 15, 2021   (Final data collection date for primary outcome measure);COVID 19;"Diagnostic Test: Serology Test
+Participants will be seen at T0 (baseline),T2 (2 months after T0), and T4 (2 months after T2).
+at every visit, participants will be asked to complete a general surveillance survey and a blood sample will be taken for the serology test.";Observational;Healthcare workers, divided into two groups (High-risk and Low-risk).;"High-risk
+Employees at high-risk of Coronavirus exposure areas (physicians, nurses, respiratory therapists, radiology technologists, lab technologists, housekeepers)
+Intervention: Diagnostic Test: Serology Test
+Low-risk
+Employees working at lower risk areas such as (administration, HR, Public relations)
+Intervention: Diagnostic Test: Serology Test";;18 Years and older   (Adult, Older Adult);Sexes Eligible for Study: All;"Inclusion Criteria:
+Adult.
+JHAH employee
+Housekeepers (this group of staff are outsourced at JHAH)
 Exclusion Criteria:
-Patients diagnosed with non-cancer pain or unexplained pain
-Patients who have constipation (CTCAE grade 3 and above)
-Patients with uncontrolled or unstable cardiac disease
-Abnormal lab results, with obvious clinical significance, such as ALT or AST>= 3 fold of upper limit of normal value or liver function of Child C grade prior to study
-ALT or AST >= 5 fold of upper limit of normal value for patients with liver metastasis or primary liver cancer
-Pregnant or nursing (lactating) women
-Patients who are drug or alcohol abuse
-Patients who have hypersensitivity to buprenorphine
-Patients who are clinically unstable or have a life expectancy of less than 8 weeks making completion of the trial unlikely
-With any contraindications or using prohibited medication per locally approved";
-NCT03752268;Development of an Intervention to Enhance Cancer Pain Management;Development of an Intervention to Enhance Cancer Pain Management;This research study is being done to understand how patients with chronic cancer pain take their long-acting opioid medications, and to develop an intervention to enhance cancer pain management.;"Long-acting opioids are a common treatment for cancer pain. The purpose of this study is to develop a program for patients who are taking a prescribed long-acting opioid for their cancer pain. Participants will be enrolled in this study at the Massachusetts General Hospital Cancer Center. This 14-week study involves completing a set of questionnaires at three different times during the study period. . During the study period, participants will use electronic pill caps to monitor their pain medication taking. They also will attend a series of three visits with one of the nurse practitioners on their care cancer team. The visits will focus on learning and practicing skills for managing cancer pain. The information that the investigators collect will help identify whether the sessions are feasible and useful to patients during the course of treatment for cancer pain.
-This trial will consist of two parts:
-Part 1: This is a single-group prospective observational study. Investigators will use quantitative and qualitative methods to examine rates, predictors and outcomes of adherence to LA opioids over a period of approximately eight weeks. This information will be used to inform Part 2 intervention development and testing.
-Part 2: Investigators will test the behavioral intervention in a non-randomized open pilot, over a period of approximately six weeks. Intervention process data, psychosocial and medical data, and post-intervention feedback will be collected to assess feasibility and acceptability. In an iterative process, ongoing data from exit interviews and therapist experience will be used to modify the intervention protocol.";April 15, 2014;November 30, 2020   (Final data collection date for primary outcome measure);Other Cancer;"Behavioral: Enhancing Cancer Pain Management
-Patients will learn and practice an enduring framework of cognitive-behavioral strategies, to enhance adherence behavior, reduce intentional and unintentional deviations from the prescribed regimen.";Interventional;;;Not Applicable;21 Years and older   (Adult, Older Adult);Sexes Eligible for Study: All;"Inclusion Criteria:
-Age 21 or older
-Currently prescribed a long-acting (LA) opioid for nociceptive cancer pain (extended release oxycodone, extended-release morphine, transdermal fentanyl patches, methadone tablets)
-Ability to comprehend study materials in English
-Eastern Cooperative Oncology Group (ECOG) performance status ≤ 2
-In charge of administering own pain medications
-Part 2 study only: within 4 months of current prescription of LA opioid for nociceptive cancer pain
+1. Any participant exhibiting COVID 19 symptoms";1200
+NCT04427254;Study of the Sars-Cov2 Neuroinvasiveness - COVID19;Study of the Sars-Cov2 Neuroinvasiveness - COVID19;Sars-Cov2 (COVID-19) may invade the CNS inducing neurological diseases such as anosmia, ageusia, encephalitis, ischemic or hemorrhagic stroke. Management of severe neurological complications in COVID-19 patients may require ventricular cerebrospinal fluid drainage and cranial decompression. During surgery, cerebrospinal fluid, meninges and brain parenchyma can be safely removed from the patient. In this study, COVID-19 patients will be evaluated first, for the presence of Sars-Cov2 in the cerebrospinal fluid and/or biopsies and second, for the consequences of Sars-Cov2 neuroinfection in terms of inflammatory and immune responses.;Not Provided;January 2021;January 2023   (Final data collection date for primary outcome measure);COVID19;"Drug: Cerebrospinal fluid sampling, meningeal and brain parenchyma biopsies
+Cerebrospinal fluid sampling, meningeal and brain parenchyma biopsies";Interventional;;;Not Applicable;18 Years and older   (Adult, Older Adult);Sexes Eligible for Study: All;"Inclusion Criteria:
+COVID-19 patients requiring an external ventricular drain, a decompressive craniectomy or an intracranial hematoma surgery
 Exclusion Criteria:
-Impaired cognition, active substance disorder, or other active, unstable mental health disorder
-Current long-acting opioid treatment for pre-existing condition
-Part 2 study only: Prior enrollment in the Part 1 study**";150
-NCT03721211;Imaging With [11C]Martinostat in Breast Cancer;Imaging With [11C]Martinostat in Breast Cancer;"This research study is studying a PET imaging tracer as a possible means of imaging breast cancer.
-The imaging agent involved in this study is:
--[11C]Martinostat (called C-eleven-Martinostat)";"This research study is a Pilot Study, which is the first time investigators are examining this study imaging agent in patients who have breast cancer.
-The FDA (the U.S. Food and Drug Administration) has approved [11C]Martinostat as an investigational tracer (a type of dye used to for radiographic imaging) in a select few research studies. The FDA has not approved this tracer for any use outside of research.
-In this research study, the investigators are investigating the use of a PET tracer called [11C]Martinostat in patients with breast cancer.
-The purpose of the study is to take images that can measure the amount of a protein called histone deacetylase, or 'HDAC' in breast tumors. Proteins are molecules made from amino acids that perform activities in the cell for the body to function in a healthy way. Prior research suggests that HDAC levels or amounts can be altered in some breast tumors. The investigators are trying to develop a method of imaging the HDAC protein in breast tumors. This could help them to study protein changes that occur in some breast tumors, and potentially help guide treatment of breast tumors in the future.
-In this study, the investigators will take the pictures of the participant's chest, including the breasts, using a PET/MRI scanner. The investigators will the study tracer, or dye, called [11C]Martinostat to make these detailed pictures.
-[11C]Martinostat was initially developed to image the HDAC protein within the brain, because amounts or levels of HDAC can be altered in some diseases of the brain. In these previous studies of [11C]Martinostat conducted in humans, there were no adverse events (there have been no problems). While this is not the first time [11C]Martinostat has been used in humans, it is the first study in which the investigators are using this tracer to study breast cancer.";February 1, 2020;February 28, 2020   (Final data collection date for primary outcome measure);Breast Cancer;"Drug: [11C]Martinostat
-a type of dye used for radiographic imaging of the HDAC protein
-Other Name: Martinostat
-Device: MR-PET scanner
-PET, or positron emission tomography, is a type of imaging test that uses a tracer, or dye, to make detailed pictures showing the activities of the cells that make up tissues and organs";Interventional;;;Phase 1;18 Years and older   (Adult, Older Adult);Sexes Eligible for Study: Female;"Inclusion Criteria:
-Be at least 18 years or age (required for legal consent)
-Have ECOG performance status ≤2 (Karnofsky ≥60%, see Appendix A)
-Have breast imaging findings from mammogram, ultrasound, or breast MRI that are highly suspicious (i.e. coded as BI RADS 5) for breast cancer.
-Have primary breast tumor that is at least 2 cm in diameter as measured in any dimension on either mammogram, ultrasound, or breast MRI
-Have the ability to understand and the willingness to sign a written informed consent document.
+Pregnant or lactating women";500
+NCT04377685;Prediction of Clinical Course in COVID19 Patients;Prediction of Clinical Course in COVID19 Patients Using Unsupervised Classification Approaches of Clinical, Biological and the Multiparametric Signature of the Chest CT Scan Performed at Admission;"In the context of the COVID19 pandemic and containment, chest CT is currently frequently performed on admission, looking for suggestive signs and basic abnormalities of COVID19 compatible viral pneumonitis pending confirmation of identification of viral RNA by reverse-transcription polymerase chain reaction(PCR), with a reported sensitivity of 56-88% in the first few days, slightly higher than PCR (60%) (1). Nevertheless, currently established radiological abnormalities are not specific for COVID19 and the specificity of the chest CT is ~25% when PCR is used as a reference (1). Deconfinement and its consequences will complicate the triage of COVID patients and the role of the scanner, with the expected impact of a decrease in the prevalence of infection in the emergency department and an increase in the number of ""all-round"" patients, including patients with non-COVID viral infiltrates or pneumopathies.
+In addition, there are currently no imaging criteria to complement the clinical and biological data that can predict the progression of lung disease from the initial data.";In image processing, computational medical imaging has demonstrated its ability to predict a therapeutic response or a particular evolution after extracting relevant anatomical, functional or even non-visually perceptible information from the volume of images, making it possible to construct a powerful radiomic signature or to use robust anatomical/functional measurements to provide estimates of ventilation or vascular state. By combining these data extracted from the scanner with the standard clinical-biological data produced at admission during triage, our ambition is to build a predictive model using unsupervised classification approaches capable of helping predict clinical evolution with the aim of optimizing the management of the resource.;March 1, 2020;September 30, 2020   (Final data collection date for primary outcome measure);COVID 19;"Other: CT-Scan
+Chest CT scan on admission to the hospital";Observational;patient admitted to the emergency room of COVID-19 confirmed by RT-PCR;"COVID19 patients
+Patient tested positive for SARS-CoV-2 who had a CT scan
+Intervention: Other: CT-Scan";;18 Years and older   (Adult, Older Adult);Sexes Eligible for Study: All;"Inclusion Criteria:
+age ≥ 18 years
+clinical suspicion of COVID-19 confirmed by RT-PCR
+CT scan at ER admission
+RT-PCR sampling
 Exclusion Criteria:
-General Exclusion Criteria
-Previously treated breast cancer
-Concurrent malignancy of any type
-Recent breast surgery (within the past 12 months) on the ipsilateral breast as the current breast tumor
-Impaired elimination (as defined as having problems with urination)
-Metallic foreign bodies that would be affected by the MRI magnet, or fear of enclosed spaces likely to make the subject unable to undergo an MRI scan
-Participation in a research study/studies involving radiation exposure within the past 12 months
-Uncontrolled intercurrent illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, major kidney or liver disease, or psychiatric illness/social situations that would limit compliance with study requirements
-Pregnancy
-Currently lactating (either breast feeding or breast pumping)
-Pregnant women are excluded from this study because of the radioactivity of [11C]Martinostat and the resulting risks of teratogenic or abortifacient effects. Because there is an unknown but potential risk for adverse events in nursing infants secondary to administration of [11C]Martinostat, and because lactation may potentially affect the uptake of [11C]Martinostat on PET, breastfeeding women are excluded from the study.
-General MR and PET Safety Exclusion Criteria:
-Electrical implants such as cardiac pacemakers or perfusion pumps
-Ferromagnetic implants such as aneurysm clips, surgical clips, prostheses, artificial hearts, valves with steel parts, metal fragments, shrapnel, metallic tattoos anywhere on the body, tattoos near the eye, steel implants, ferromagnetic objects such as jewelry or metal clips in clothing
-Pre-existing medical conditions including a likelihood of developing seizures or claustrophobic reactions, and any greater than normal potential for cardiac arrest
-Inability to lie comfortably on a bed inside a PET camera for 90 minutes as assessed by physical examination and medical history (e.g. back pain, arthritis)
-Pregnancy: A negative serum pregnancy test is required on the day of the PET procedure for female subjects of child-bearing age.
-Body weight of > 250 lbs (weight limit of the MRI table as well as risks to larger patients from MRI elements)";12
-NCT03863457;[18F] F-GLN by PET/CT in Breast Cancer;Pilot Study Evaluating the Uptake of [18F] F-GLN by PET/CT in Breast Cancer;"Patients with known or suspected primary or metastatic breast cancer with one lesion that is 1.5 cm in diameter or greater may be eligible for this study. Patients may participate in this study if they are at least 18 years of age. Up to 30 evaluable subjects will participate in a single imaging cohort. Patients will be stratified by breast cancer subtype with prioritization to recruit at least 10 estrogen-receptor-expressing (ER+) and 10 triple-negative breast cancers (TNBC).
-This is an observational study; [18F]F-GLN PET/CT will not be used to direct treatment decisions. While patients and referring physicians will not be blinded to the [18F]F-GLN PET/CT results, treatment decisions are made by the treating physicians based upon clinical criteria.
-[18F]F-GLN PET/CT imaging sessions will include an injection of [18F]F-GLN. Metabolism data will be collected. Pilot data will be collected to evaluate image quality and collect preliminary information on the uptake of [18F]F-GLN in breast cancer. Uptake measures will be compared to tumor markers of glutamine metabolism, when tissue is available. The safety of [18F]F-GLN will also be evaluated in all subjects.";Up to 30 patients will undergo approximately 60 minutes of dynamic PET scanning followed by up to 2 static skull-base to mid-thigh scans post injection of [18F] (2S,4R)4-fluoroglutamine ([18F]F-GLN). A baseline FDG-PET/CT will also be performed, either as a routine clinical staging/re-staging scan or as a research scan. If performed as a research scan, the scan may include an optional dynamic imaging session. Some subjects, who undergo systemic therapy as part of their clinical treatment, may also undergo an optional second [18F]F-GLN PET/CT to collect pilot data on the changes in [18F]F-GLN uptake in response to therapy. Subjects who undergo a second [18F]F-GLN PET/CT may have a second FDG-PET/CT, again either as a standard-of-care restaging study or as an optional research scan. The timing of the optional second PET scans will vary depending on the type of treatment the subject is receiving.;April 5, 2019;March 2022   (Final data collection date for primary outcome measure);Breast Cancer;"Drug: Fluoroglutamine [18F]F-GLN
-Evaluate the kinetics and biodistribution of [18F]F-GLN in primary and metastatic breast cancer.
-Other Name: [18F](2S, 4R)4-Fluoroglutamine ([18F]F-GLN)";Observational;Up to 30 evaluable participants ≥ 18 years of age.;Not Provided;;18 Years and older   (Adult, Older Adult);Sexes Eligible for Study: All;"Inclusion Criteria:
-Participants will be ≥ 18 years of age
-Known or suspected primary or metastatic breast cancer.
-At least one lesion ≥ 1.5 cm that is seen on standard imaging (e.g. CT, MRI, mammogram, ultrasound, FDG-PET/CT). Only one type of imaging is required to show a lesion.
-Participants must be informed of the investigational nature of this study and be willing to provide written informed consent and participate in this study in accordance with institutional and federal guidelines prior to study-specific procedures.
+CT scan failure or loss of CT data
+RT-PCR initial results unavailable";800
+NCT04386668;Let It Out (LIO) and COVID19: Testing an Online Emotional Disclosure-based Intervention During the COVID19 Pandemic;Let It Out (LIO) and COVID19: a Randomised Controlled Trial of an Online Emotional Disclosure-based Intervention for Adults During the COVID19 Pandemic;"A randomised controlled trial designed to test whether an online expressive writing intervention (LIO-C) can reduce distress for English-speaking adults during the global COVID19 pandemic.
+Hypothesis: LIO-C will improve distress (as measured by K10) in adults at 1 week post-intervention compared to a neutral writing control during the COVID19 pandemic.";"The world is currently experiencing unprecedented challenges caused by the global coronavirus (COVID19) pandemic. Many countries are enforcing measures to restrict movement of people to reduce the spread of the outbreak, including lock-downs, social distancing and self-isolation. These methods, although necessary to slow the spread of disease, will have negative effects on psychological well-being of large populations. Shortage of health care professionals and measures to restrict interpersonal contact means facilitated psychological interventions will not be feasible for many, at least during the height of the pandemic. There is therefore a need for self-directed psychological interventions that can be practically and quickly implemented online.
+Emotional disclosure-based therapies, such as expressive writing (EW), hold potential as low-cost, easy to implement means of support, with minimal requirement for facilitation. In its original format, EW involved writing daily for 15-20 minutes for 3-4 days about a traumatic event. Since its development, it has been adapted in many ways, including writing about positive events and writing about stress from a compassionate stance. There is evidence that such interventions can provide significant psychological and physical benefits in healthy populations and reduce the effects of natural disasters on health and well-being. However, to our knowledge this form of psychological intervention has not been tested during a rapidly evolving crisis or pandemic.
+The aim of this study is to test whether an online self-compassion and EW based intervention (LIO-C) can reduce the negative effects of the COVID19 pandemic on health and well-being. The intervention is based on an existing intervention, LIO, that we previously developed for use in advanced disease populations, in collaboration with clinical and health psychologists, and patient and public representatives. For this study, we have adapted the intervention for people living through the current COVID19 pandemic by altering the writing prompts, and translating the intervention to an online hub. As this is an unfacilitated intervention, the instructions involve writing from a compassionate stance to minimise any potential short term negative effects associated with writing about difficult experiences.";May 26, 2020;July 12, 2020   (Final data collection date for primary outcome measure);COVID19;"Other: Let It Out (LIO)-C
+Participants complete three online 20-minute writing sessions in response to prompts asking them to write about their experiences during the COVID19 pandemic from a self-compassionate perspective
+Other Names:
+expressive writing
+emotional disclosure
+expressive disclosure
+therapeutic writing
+Other: Neutral writing control
+Participants complete three online 20-minute writing sessions in response to neutral writing prompts";Interventional;;;Not Applicable;18 Years and older   (Adult, Older Adult);Sexes Eligible for Study: All;"Inclusion Criteria:
+English speaking adults over the age of 18
+Able to read and write clearly in English
 Exclusion Criteria:
-Females who are pregnant or breast feeding at the time of screening; a urine pregnancy test will be performed in women of child-bearing potential at screening.
-Inability to tolerate imaging procedures in the opinion of an investigator or treating physician.
-Any current medical condition, illness, or disorder, as assessed by medical record review and/or self-reported, that is considered by a physician investigator to be a condition that could compromise participant safety or successful participation in the study.";30
+None";286
