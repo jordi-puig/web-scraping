@@ -63,7 +63,7 @@ class StudyScraper:
   def get_header(self):
       header = []
       
-      header.append('NCT Number')
+      header.append('Id')
       header.append('Brief Title')
       header.append('Official Title')
       header.append('Brief Summary')      
@@ -71,10 +71,9 @@ class StudyScraper:
       header.append('Study Type')
       header.append('Study Phase')
       header.append('Study Design')
-      header.append('Condition')
-      header.append('Intervention')     
-      header.append('Study Arms')       
-                 
+      header.append('Condition/Disease')
+      header.append('Intervention/Treatment')     
+      header.append('Study Arms')                        
       header.append('Start Date')
       header.append('Completion Date')
 
