@@ -24,16 +24,27 @@ class Data2CSV:
                                  study.official_title, 
                                  study.brief_summary,
                                  study.detailed_description,
-                                 study.start_date,
-                                 study.completion_date,
+                                 study.type,
+                                 study.phase,
+                                 study.design,
                                  study.condition,
                                  study.intervention,
-                                 study.study_type,
+                                 study.arms,                                
+                                 study.start_date,
+                                 study.completion_date,                                 
+                                 study.estimated_enrollment,
+                                 study.eligibility_criteria,
+                                 study.sex_gender,
+                                 study.ages,
                                  study.study_population,
                                  study.study_groups,
-                                 study.phase,
-                                 study.ages,
-                                 study.sex_gender,
-                                 study.eligibility_criteria,
-                                 study.estimated_enrollment
+                                 study.enrollment_countries,                                 
+                                 study.responsible_party,
+                                 study.sponsor,
+                                 study.collaborators,
+                                 study.investigators                    
                                 ])
+
+
+
+               
