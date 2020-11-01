@@ -6,7 +6,7 @@ La web [ClinicalTrials.gov](https://clinicaltrials.gov) és una base de dades d�
 Alhora d'obtenir les dades realitzem un rastreig de la web. Anem recorrent els diferents elements del resultat de cerca i es desacarrega aquesta informació en un document CSV.
 
 ## Membres de l'equip
-Aquesta pràctica ha estat realitzada integrament per l'alumne de la UOC Jordi Puig
+Aquesta pràctica ha estat realitzada integrament per l'alumne Jordi Puig
 ## Descripció del DataSet
 El Dataset descarregat conté informació de cada una de les proves clíniques realitzades per COVID i emmagatzemades a la web [ClinicalTrials.gov](https://clinicaltrials.gov).
 
