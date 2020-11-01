@@ -54,7 +54,7 @@ El codi font està format per els següents fitxers cada un amb una responsabili
 ### Selenium
 Per a realitzar l'scraping hem fet servir la llibreria Selenium. Aquesta llibreria la havia fet servir amb anterioritat per a realitzar Testing en altres plataformes. 
 També en serveix per a rastrejar i volcar dades.
-
+### Pases a realitzar
 Les pases realitzades són les següents:
 1. Accedim a la pàgina inicial amb la [URL](https://clinicaltrials.gov/ct2/show/record/?cond=COVID&draw=3&rank=1&view=record)
 2. Els valors que volem descarregar es troben en una taula, i cada un d'ells, és guarden en la forma <tr><th>title</th><td>content</td></tr>. 
@@ -83,6 +83,8 @@ except:
   raise Exception('not exists the next link')
 ``` 
 Anem recorrent totes les pàgines fins que el valor del next_link no existeix. En aquest cas capturarem una excepció ja que es produirà un error i la llençarem per a un tractament en una classe superior. És una excepció controlada.
+### User-Agent
+Per a simular la navegació d'un web browser he fet servir la llibreria fake-useragent. Aquesta llibreria simula un User Agent i ho fa de forma aleatoria per a cada una de les conexions que es realitzen.
 ## Configuració previa:
 - pip install selenium
 - pip install webdriver-manager
@@ -104,6 +106,6 @@ python main.py cancer
 I ens descarregarà els estudis que tenen com a keyword la paraula cancer.
 
 Per defecte la keyword és COVID.
-## Recursos
 ## Llicencia utilitzada
 ## Agraïments
+La pràctica per els estudis de la UOC la he pogut realitzar gràcies a la base de dades [Clinicaltrials.gov](https://clinicaltrials.gov/)
