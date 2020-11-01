@@ -25,7 +25,7 @@ class Scraper:
         browser.start()
         
         more_pages = True
-        while (more_pages and len(self.lines) < 5):
+        while (more_pages):
             try:    
                 print('processing page:', len(self.lines) +1, ' ...')
                 self.study_scraper = StudyScraper(browser.get_current_page())
@@ -41,7 +41,7 @@ class Scraper:
         browser.stop()
         
     def data_to_csv(self):
-        file_name = 'studies.csv'
+        file_name = '../../studies.csv'
         header = self.study_scraper.get_header()
                 
         data2csv = Data2CSV(file_name, header, self.lines)      
