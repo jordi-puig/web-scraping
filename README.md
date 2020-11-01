@@ -50,7 +50,39 @@ El codi font està format per els següents fitxers cada un amb una responsabili
 - study_scraper.py: fa scraping d'una pàgina d'estudi.
 - study.py: és l'entitat study
 - data2csv.py: guarda els registes generats de l'scraping realitzat a un fitxer csv 
-## Implementació
+## Implementació:
+### Selenium
+Per a realitzar l'scraping hem fet servir la llibreria Selenium. Aquesta llibreria la havia fet servir amb anterioritat per a realitzar Testing en altres plataformes. 
+També en serveix per a rastrejar i volcar dades.
+
+Les pases realitzades són les següents:
+1. Accedim a la pàgina inicial amb la [URL](https://clinicaltrials.gov/ct2/show/record/?cond=COVID&draw=3&rank=1&view=record)
+2. Els valors que volem descarregar es troben en una taula, i cada un d'ells, és guarden en la forma <tr><th>title</th><td>content</td></tr>. 
+
+Per tant, per a cada camp de la pàgina que volem desarregar fem el següent:
+
+* Primer fem una cerca per th + contains:'title'. És a dir, busquem un th que a més tingui un part del text de 'title'.
+```
+th = self.browser.find_element_by_xpath("//th[contains(text(), '" + title + "')]") 
+```
+* Després pujem un nivell per anar al tr que conté tant el title com el contingut. 
+```
+tr = th.find_element_by_xpath("./..");
+```
+* Finalment, agafem el contingut.
+```
+td = tr.find_element_by_xpath(".//td[1]")
+```
+3. Un cop hem guardat els valors de la pàgina en un objecte de classe Study i l'hem emmagatzemat a una llista anem a la següent página. Les pàgines tenen una paginació de la forma típica (Anterior - Següent). Cerquem la pàgina següent i navegem a la pàgina:
+```
+class_name = 'tr-next-link'
+try:
+  next_link = self.browser.find_element_by_class_name(class_name)
+  next_link.click()
+except:
+  raise Exception('not exists the next link')
+``` 
+Anem recorrent totes les pàgines fins que el valor del next_link no existeix. En aquest cas capturarem una excepció ja que es produirà un error i la llençarem per a un tractament en una classe superior. És una excepció controlada.
 ## Configuració previa:
 - pip install selenium
 - pip install webdriver-manager
