@@ -4,6 +4,7 @@ Created on Fri Oct 16 22:18:49 2020
 
 @author: jpuig
 """
+import time
 from  study_scraper import StudyScraper
 from browser import Browser
 from data2csv import Data2CSV
@@ -32,7 +33,7 @@ class Scraper:
                 study = self.study_scraper.get_study()
                 self.lines.append(study)
                 print('page:', study.id, 'processed')
-                
+                time.sleep(1)
                 browser.navigate()
             except:
                 print('no more pages to scrap')
