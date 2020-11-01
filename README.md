@@ -42,7 +42,7 @@ Cada un d'aquests registres està compost per aquests camps:
 ## Representació gràfica
 ## Inspiració
 ## Codi font
-El codi font està format pels següents fitxers cada un amb una responsabilitat específica ([SRP])(https://en.wikipedia.org/wiki/Single-responsibility_principle) i amb orientació a objectes:
+El codi font està format pels següents fitxers cada un amb una responsabilitat específica, [SRP](https://en.wikipedia.org/wiki/Single-responsibility_principle) i amb porgramació orientació a objectes, [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming):
 - main.py: és la classe principal que rep la petició i arrenca tot el procés
 - scraper.py: és la classe que s'encarrega de realitzar el procés d'scraping, guardar les pàgines en una llista i posteriorment emmagatzemar el fitxer csv.
 - browser.py: fa la navegació. Embolcalla un objecte de Selenium i realitza la navegació per les pàgines.
