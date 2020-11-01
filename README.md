@@ -108,4 +108,4 @@ I ens descarregarà els estudis que tenen com a keyword la paraula cancer.
 Per defecte la keyword és COVID.
 ## Llicencia utilitzada
 ## Agraïments
-La pràctica per els estudis de la UOC la he pogut realitzar gràcies a la base de dades [Clinicaltrials.gov](https://clinicaltrials.gov/)
+La pràctica per als estudis universitaris de la UOC la he pogut realitzar gràcies a la base de dades [Clinicaltrials.gov](https://clinicaltrials.gov/)
