@@ -41,6 +41,18 @@ Cada un d'aquests registres està compost per aquests camps:
 - Investigators: Grup d'investigadors (string)
 ## Representació gràfica
 ## Inspiració
+El projecte surt de la necessitat de tenir un dataset dels estudis clínics que s'han realitzat fins ara de la COVID-19.
+
+Amb aquest dataset podem fer estudis estadístics o de data mining amb:
+* Quins tipus de intervencions, procediments, medicament s'han realitzat.
+* Edats i sexe de les persones testades.
+* Volum dels individus testats.
+* Països paticipants.
+* Fases en les quals és troben els estudis.
+* Dates dels estudis.
+
+Aquestes dades són una recopilació sense cap tipus de processament, per tant serà necessari, de cara a realitzar estudis posteriors, fer tractaments i neteja de les dades.
+
 ## Codi font
 El codi font està format pels següents fitxers cada un amb una responsabilitat específica, [SRP](https://en.wikipedia.org/wiki/Single-responsibility_principle) i amb porgramació orientació a objectes, [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming):
 - main.py: és la classe principal que rep la petició i arrenca tot el procés
