@@ -138,3 +138,5 @@ Per defecte la keyword és COVID.
 ## Llicencia utilitzada
 ## Agraïments
 La pràctica per als estudis universitaris de la UOC la he pogut realitzar gràcies a la base de dades [Clinicaltrials.gov](https://clinicaltrials.gov/)
+## Publicació a Zenodo
+El dataset ha estat publicat a Zenodo i el podem trobar en aquesta [URL](https://zenodo.org/record/4242935#.X6GpVYj0mUk)
