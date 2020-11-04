@@ -1,4 +1,5 @@
 # Estudis Clínics COVID (Web Scraping)
+![Covid-19 - Clinical Trials](https://github.com/jordi-puig/web-scraping/blob/feature-graphic-representation/image.jpg)
 ## Descripció de l'objectiu
 L'objectiu del projecte és extreure un conjunt de proves clíniques realitzades per la COVID arreu del món amb la finalitat de realitzar estudis estadístics i de Data Mining.
 La web [ClinicalTrials.gov](https://clinicaltrials.gov) és una base de dades d’estudis clínics finançats amb fons privats i públics realitzats a tot el món.
@@ -39,7 +40,6 @@ Cada un d'aquests registres està compost per aquests camps:
 - Study Sponsor: Sponsors que paricipen (string)
 - Collaborators: Col·laboradors de l'estudi (string)
 - Investigators: Grup d'investigadors (string)
-## Representació gràfica
 ## Inspiració
 El projecte surt de la necessitat de tenir un dataset dels estudis clínics que s'han realitzat fins ara de la COVID-19.
 
