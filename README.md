@@ -136,13 +136,13 @@ I ens descarregarà els estudis que tenen com a keyword la paraula cancer.
 
 Per defecte la keyword és COVID.
 ## Llicència utilitzada
-Amb aquesta llicència es pot distribuir i modificar l'obra, però no per al seu ús comercial. Si es vol publicar una obra derivada, caldrà fer-ho amb la mateixa llicència de l'obra original. Faig servir una llicència que limiti l'ús a fins comercials. 
-### Released Under [CC BY-NC-SA 4.0 License](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+Faig servir la llicència [CC BY-NC-SA 4.0 License](https://creativecommons.org/licenses/by-nc-sa/4.0/). Amb aquesta llicència es pot distribuir i modificar l'obra, però no per al seu ús comercial. Si es vol publicar una obra derivada, caldrà fer-ho amb la mateixa llicència de l'obra original. Faig servir una llicència que limiti l'ús a fins comercials. 
 Fer servir aquesta llicència implica:
-* Share: Llibertat per a copiar i redistribuïr el material a qualsevol mitjà o format.
-* Adapt: barrejar, transformar i contruir sobre el material.
-* NonCommercial: no es pot fer servir al material amb fins comercials.
-* ShareAlike: si es barreja, transforma o contrueix sobre el material, s'ha de fer servir sota la mateixa llicència.
+* Compartir (Share): llibertat per a copiar i redistribuïr el material a qualsevol mitjà o format.
+* Atribución (Attribution): s'ha de fer referència a la llicència, donar crèdit i indicar canvis.
+* Adaptar (Adapt): barrejar, transformar i contruir sobre el material.
+* NoComercial (NonCommercial): no es pot fer servir al material amb fins comercials.
+* CompartirIgula (ShareAlike): si es barreja, transforma o contrueix sobre el material, s'ha de fer servir sota la mateixa llicència.
 
 ## Agraïments
 La pràctica per als estudis universitaris de la UOC la he pogut realitzar gràcies a la base de dades [Clinicaltrials.gov](https://clinicaltrials.gov/)
