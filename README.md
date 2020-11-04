@@ -135,6 +135,14 @@ python main.py cancer
 I ens descarregarà els estudis que tenen com a keyword la paraula cancer.
 
 Per defecte la keyword és COVID.
-## Llicencia utilitzada
+## Llicència utilitzada
+Faig servir una llicència que limiti l'ús a fins comercials.
+### Released Under [CC BY-NC-SA 4.0 License](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+Fer servir aquesta llicència implica:
+* Share: Llibertat per a copiar i redistribuïr el material a qualsevol mitjà o format.
+* Adapt: barrejar, transformar i contruir sobre el material.
+* NonCommercial: no es pot fer servir al material amb fins comercials.
+* ShareAlike: si es barreja, transforma o contrueix sobre el material, s'ha de fer servir sota la mateixa llicència.
+
 ## Agraïments
 La pràctica per als estudis universitaris de la UOC la he pogut realitzar gràcies a la base de dades [Clinicaltrials.gov](https://clinicaltrials.gov/)
