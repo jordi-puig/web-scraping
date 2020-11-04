@@ -136,7 +136,7 @@ I ens descarregarà els estudis que tenen com a keyword la paraula cancer.
 
 Per defecte la keyword és COVID.
 ## Llicència utilitzada
-Faig servir una llicència que limiti l'ús a fins comercials.
+Amb aquesta llicència es pot distribuir i modificar l'obra, però no per al seu ús comercial. Si es vol publicar una obra derivada, caldrà fer-ho amb la mateixa llicència de l'obra original. Faig servir una llicència que limiti l'ús a fins comercials. 
 ### Released Under [CC BY-NC-SA 4.0 License](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 Fer servir aquesta llicència implica:
 * Share: Llibertat per a copiar i redistribuïr el material a qualsevol mitjà o format.
