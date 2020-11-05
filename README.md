@@ -1,15 +1,15 @@
 # Estudis Clínics COVID (Web Scraping)
 ![Covid-19 - Clinical Trials](https://github.com/jordi-puig/web-scraping/blob/master/image.jpg)
 ## Descripció de l'objectiu
-L'objectiu del projecte és extreure un conjunt de proves clíniques realitzades per la COVID arreu del món amb la finalitat de realitzar estudis estadístics i de Data Mining.
+L'objectiu del projecte és extreure un conjunt de proves clíniques realitzades per la COVID-19 arreu del món amb la finalitat de realitzar estudis estadístics i de Data Mining.
 La web [ClinicalTrials.gov](https://clinicaltrials.gov) és una base de dades d’estudis clínics finançats amb fons privats i públics realitzats a tot el món.
 
-A l'hora d'obtenir les dades realitzem un rastreig de la web. Anem recorrent els diferents elements del resultat de cerca i es descarrega aquesta informació en un document CSV.
+A l'hora d'obtenir les dades realitzem un rastreig d'aquesta web. Anem recorrent els diferents elements del resultat de cerca i es descarrega aquesta informació en un document CSV.
 
 ## Membres de l'equip
 Aquesta pràctica ha estat realitzada íntegrament per l'alumne Jordi Puig
 ## Descripció del DataSet
-El Dataset descarregat conté informació de cada una de les proves clíniques realitzades per COVID. Aquestes es troben emmagatzemades a la web [ClinicalTrials.gov](https://clinicaltrials.gov).
+El Dataset descarregat conté informació de cada una de les proves clíniques realitzades per COVID-19. Aquestes es troben emmagatzemades a la web [ClinicalTrials.gov](https://clinicaltrials.gov).
 
 Cada un d'aquests registres està compost per aquests camps:
 
@@ -44,7 +44,7 @@ Cada un d'aquests registres està compost per aquests camps:
 El projecte surt de la necessitat de tenir un dataset dels estudis clínics que s'han realitzat fins ara de la COVID-19.
 
 Amb aquest dataset podem fer estudis estadístics o de data mining amb:
-* Quins tipus de intervencions, procediments, medicament s'han realitzat.
+* Quins tipus de intervencions o procediments s'han realitzat o quins medicament s'han emprat.
 * Edats i sexe de les persones testades.
 * Volum dels individus testats.
 * Països paticipants.
@@ -64,8 +64,7 @@ El codi font està format pels següents fitxers cada un amb una responsabilitat
 - data2csv.py: guarda els registes generats de l'scraping realitzat a un fitxer csv.
 ## Implementació:
 ### Selenium
-Per a realitzar l'scraping hem fet servir la llibreria Selenium. Aquesta llibreria l'havia fet servir amb anterioritat per a realitzar Testing en altres plataformes. 
-També en serveix per a rastrejar i bolcar dades.
+Per a realitzar l'scraping s'ha fet servir la llibreria Selenium. Aquesta llibreria l'havia fet servir amb anterioritat per a realitzar Testing en altres plataformes. 
 ### Passes a realitzar
 Les passes realitzades són les següents:
 1. Accedim a la pàgina inicial amb la [URL](https://clinicaltrials.gov/ct2/show/record/?cond=COVID&draw=3&rank=1&view=record)
@@ -75,7 +74,7 @@ Les passes realitzades són les següents:
 ```
 Per tant, per a cada camp de la pàgina que volem desarregar fem el següent:
 
-* Primer fem una cerca per th + contains:'title'. És a dir, busquem un th que a més tingui un part del text de 'title'.
+* Primer fem una cerca per th + contains:'title'. És a dir, busquem un th que a més tingui una part del text de 'title'.
 ```
 th = self.browser.find_element_by_xpath("//th[contains(text(), '" + title + "')]") 
 ```
@@ -83,11 +82,12 @@ th = self.browser.find_element_by_xpath("//th[contains(text(), '" + title + "')]
 ```
 tr = th.find_element_by_xpath("./..");
 ```
-* Finalment, agafem el contingut del td
+* Finalment, agafem el contingut del td.
 ```
 td = tr.find_element_by_xpath(".//td[1]")
 ```
-3. Un cop hem guardat els valors de la pàgina en un objecte de classe Study i l'hem emmagatzemat a una llista anem a la següent página. Les pàgines tenen una paginació de la forma típica (Anterior - Següent). Cerquem la pàgina següent i navegem a la pàgina:
+3. Un cop hem guardat els valors de la pàgina en un objecte de classe Study i l'hem emmagatzemat a una llista anem a la següent página. 
+Les pàgines tenen una paginació de la forma típica (Anterior - Següent). Cerquem la pàgina següent i navegem a la pàgina:
 ```
 class_name = 'tr-next-link'
 try:
@@ -100,7 +100,7 @@ Anem recorrent totes les pàgines fins que el valor del next_link no existeix. E
 ### Logs
 Hem posat alguns logs per veure que és el que s'està executant. Per exemple el número de la pàgina.
 
-Altre cosa que m'ha semblat interessat loggar és els camps que no existeixen per a algunes pàgines. No totes les pàgines tenen tots els camps.
+Altre cosa que m'ha semblat interessat loggar son els camps que no existeixen per a algunes pàgines. No totes les pàgines tenen tots els camps.
 ```
 processing page: 205  ...
 not exists element:  Study Population
