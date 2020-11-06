@@ -1,19 +1,49 @@
 # Estudis Clínics COVID (Web Scraping)
 ![Covid-19 - Clinical Trials](https://github.com/jordi-puig/web-scraping/blob/master/image.jpg)
+
+## Components
+Aquesta pràctica ha estat realitzada integrament per l'alumne Jordi Puig Ovejero
+
+## Fitxers
+* src/scraper: carpeta amb el codi font del projecte 
+* PRA1-web-scraping.pdf: entrega de totes les pregutes de la PRA en format PDF
+* image.jpg: imatge representativa del projecte
+* README.md: explicació del projecte
+* studies.csv: dataset en format csv
+* LICENSE: llicència afegida
+* .gitignore: fitxer per a no versionar contingut no desitjat (fitxers de configuración, temporals,...)
+
+#### Codi font
+El codi font està format pels següents fitxers cada un amb una responsabilitat específica, [SRP](https://en.wikipedia.org/wiki/Single-responsibility_principle) i amb porgramació orientació a objectes, [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming):
+- main.py: és la classe principal que rep la petició i arrenca tot el procés
+- scraper.py: és la classe que s'encarrega de realitzar el procés d'scraping, guardar les pàgines en una llista i posteriorment emmagatzemar el fitxer csv.
+- browser.py: fa la navegació. Embolcalla un objecte de Selenium i realitza la navegació per les pàgines.
+- navigator.py: a partir de la pàgina del navegador permet anar a la següent pàgina o l'anterior.
+- study_scraper.py: fa scraping d'una pàgina d'estudi.
+- study.py: és l'entitat study.
+- data2csv.py: guarda els registes generats de l'scraping realitzat a un fitxer csv.
+
+
 ## Descripció de l'objectiu
-L'objectiu del projecte és extreure un conjunt de proves clíniques realitzades per la COVID-19 arreu del món amb la finalitat de realitzar estudis estadístics i de Data Mining.
 La web [ClinicalTrials.gov](https://clinicaltrials.gov) és una base de dades d’estudis clínics finançats amb fons privats i públics realitzats a tot el món.
+
+
+L'objectiu del projecte és extreure un conjunt de proves clíniques realitzades per la COVID-19 arreu del món amb la finalitat de realitzar estudis estadístics i de Data Mining. 
+
 
 A l'hora d'obtenir les dades realitzem un rastreig d'aquesta web. Anem recorrent els diferents elements del resultat de cerca i es descarrega aquesta informació en un document CSV.
 
-## Membres de l'equip
-Aquesta pràctica ha estat realitzada íntegrament per l'alumne Jordi Puig
+
 ## Descripció del DataSet
-El Dataset descarregat conté informació de cada una de les proves clíniques realitzades per COVID-19. Aquestes es troben emmagatzemades a la web [ClinicalTrials.gov](https://clinicaltrials.gov).
+El Dataset descarregat conté informació de cada una de les proves clíniques realitzades per la COVID-19 arreu del món, tant d’entitats públiques com privades. Aquestes es troben emmagatzemades a la web ClinicalTrials.gov.
+
+
+El contingut inclou dades de l’estudi (nom, fase, malaltia, tractament), dades dels participants en l’estudi (edats, sexe, nombre..) i responsables / patrocinadors de l’estudi.
+
 
 Cada un d'aquests registres està compost per aquests camps:
 
-### Dades de l'estudi
+#### Dades de l'estudi
 - Id: Identificador del registre (string)
 - Brief Title: Títol (string)
 - Official Title: Títol oficial (string)
@@ -27,41 +57,34 @@ Cada un d'aquests registres està compost per aquests camps:
 - Study Arms: Grups d'estudi (string)
 - Start Date: Data d'inici (date)
 - Completion Date: Data de finalització (date)
-### Dades dels participants en l'estudi
+#### Dades dels participants en l'estudi
 - Estimated Enrollment: Nombre de participants (enter) 
 - Eligibility Criteria: Criteri per incloure els participants a l'estudi (string)
 - Sex/Gender: Sexe dels participants (string)
-- Ages: Edats del participants (string)
+- Ages: Edats dels participants (string)
 - Study Population: Població a estudiar (string)
 - Study Groups/Cohorts: Grups d'estudi (string)
 - Listed Location Countries: Països dels participants en l'estudi (string)
-### Responsables / Sponsors
+#### Responsables / Sponsors
 - Responsible Party: Responsables del projecte (string)
-- Study Sponsor: Sponsors que paricipen (string)
+- Study Sponsor: Sponsors que participen (string)
 - Collaborators: Col·laboradors de l'estudi (string)
 - Investigators: Grup d'investigadors (string)
 ## Inspiració
 El projecte surt de la necessitat de tenir un dataset dels estudis clínics que s'han realitzat fins ara de la COVID-19.
 
 Amb aquest dataset podem fer estudis estadístics o de data mining amb:
+
 * Quins tipus de intervencions o procediments s'han realitzat o quins medicament s'han emprat.
 * Edats i sexe de les persones testades.
 * Volum dels individus testats.
-* Països paticipants.
-* Fases en les quals és troben els estudis.
+* Països participants.
+* Fases en les quals es troben els estudis.
 * Dates dels estudis.
+* ...
 
 Aquestes dades són una recopilació sense cap tipus de processament, per tant serà necessari, de cara a realitzar estudis posteriors, fer tractaments i neteja de les dades.
 
-## Codi font
-El codi font està format pels següents fitxers cada un amb una responsabilitat específica, [SRP](https://en.wikipedia.org/wiki/Single-responsibility_principle) i amb porgramació orientació a objectes, [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming):
-- main.py: és la classe principal que rep la petició i arrenca tot el procés
-- scraper.py: és la classe que s'encarrega de realitzar el procés d'scraping, guardar les pàgines en una llista i posteriorment emmagatzemar el fitxer csv.
-- browser.py: fa la navegació. Embolcalla un objecte de Selenium i realitza la navegació per les pàgines.
-- navigator.py: a partir de la pàgina del navegador permet anar a la següent pàgina o l'anterior.
-- study_scraper.py: fa scraping d'una pàgina d'estudi.
-- study.py: és l'entitat study.
-- data2csv.py: guarda els registes generats de l'scraping realitzat a un fitxer csv.
 ## Implementació:
 ### Selenium
 Per a realitzar l'scraping s'ha fet servir la llibreria Selenium. Aquesta llibreria l'havia fet servir amb anterioritat per a realitzar Testing en altres plataformes. 
@@ -113,7 +136,7 @@ page: NCT04386668 processed
 processing page: 207  ...
 ``` 
 ### User-Agent
-Per a simular la navegació d'un web browser he fet servir la llibreria fake-useragent. Aquesta llibreria simula un User Agent i ho fa de forma aleatòria per a cada una de les conexions que es realitzen.
+Per a simular la navegació d'un web browser he fet servir la llibreria fake-useragent. Aquesta llibreria simula un User Agent i ho fa de forma aleatòria per a cada una de les connexions que es realitzen.
 ## Configuració previa:
 - pip install selenium
 - pip install webdriver-manager
@@ -136,15 +159,17 @@ I ens descarregarà els estudis que tenen com a keyword la paraula cancer.
 
 Per defecte la keyword és COVID.
 ## Llicència utilitzada
-Faig servir la llicència [CC BY-NC-SA 4.0 License](https://creativecommons.org/licenses/by-nc-sa/4.0/). Amb aquesta llicència es pot distribuir i modificar l'obra, però no per al seu ús comercial. Si es vol publicar una obra derivada, caldrà fer-ho amb la mateixa llicència de l'obra original. Faig servir una llicència que limiti l'ús a fins comercials. 
+Faig servir la llicència [CC BY-NC-SA 4.0 License](https://creativecommons.org/licenses/by-nc-sa/4.0/).Amb aquesta llicència es pot distribuir i modificar l'obra, però no fer servir per al seu ús comercial. Si es vol publicar una obra derivada, caldrà fer-ho amb la mateixa llicència de l'obra original. Faig servir una llicència que limiti l'ús a finalitats comercials. 
+
 Fer servir aquesta llicència implica:
 * Compartir (Share): llibertat per a copiar i redistribuïr el material a qualsevol mitjà o format.
 * Atribución (Attribution): s'ha de fer referència a la llicència, donar crèdit i indicar canvis.
 * Adaptar (Adapt): barrejar, transformar i contruir sobre el material.
 * NoComercial (NonCommercial): no es pot fer servir al material amb fins comercials.
-* CompartirIgula (ShareAlike): si es barreja, transforma o contrueix sobre el material, s'ha de fer servir sota la mateixa llicència.
+* CompartirIgual (ShareAlike): si es barreja, transforma o contrueix sobre el material, s'ha de fer servir sota la mateixa llicència.
 
 ## Agraïments
-La pràctica per als estudis universitaris de la UOC la he pogut realitzar gràcies a la base de dades [Clinicaltrials.gov](https://clinicaltrials.gov/).
+La pràctica per als estudis universitaris de la UOC la he pogut realitzar gràcies a la base de dades [Clinicaltrials.gov](https://clinicaltrials.gov/), proporcionada per la Biblioteca Nacional de Medicina dels EE. UU.
+
 ## Publicació a Zenodo
 El dataset ha estat publicat a Zenodo i el podem trobar en aquesta [URL](https://zenodo.org/record/4242935#.X6GpVYj0mUk).
