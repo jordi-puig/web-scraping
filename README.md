@@ -1,15 +1,21 @@
 # Estudis Clínics COVID (Web Scraping)
 ![Covid-19 - Clinical Trials](https://github.com/jordi-puig/web-scraping/blob/master/image.jpg)
 ## Descripció de l'objectiu
-L'objectiu del projecte és extreure un conjunt de proves clíniques realitzades per la COVID-19 arreu del món amb la finalitat de realitzar estudis estadístics i de Data Mining.
 La web [ClinicalTrials.gov](https://clinicaltrials.gov) és una base de dades d’estudis clínics finançats amb fons privats i públics realitzats a tot el món.
+
+
+L'objectiu del projecte és extreure un conjunt de proves clíniques realitzades per la COVID-19 arreu del món amb la finalitat de realitzar estudis estadístics i de Data Mining. 
+
 
 A l'hora d'obtenir les dades realitzem un rastreig d'aquesta web. Anem recorrent els diferents elements del resultat de cerca i es descarrega aquesta informació en un document CSV.
 
-## Membres de l'equip
-Aquesta pràctica ha estat realitzada íntegrament per l'alumne Jordi Puig
+
 ## Descripció del DataSet
-El Dataset descarregat conté informació de cada una de les proves clíniques realitzades per COVID-19. Aquestes es troben emmagatzemades a la web [ClinicalTrials.gov](https://clinicaltrials.gov).
+El Dataset descarregat conté informació de cada una de les proves clíniques realitzades per la COVID-19 arreu del món, tant d’entitats públiques com privades. Aquestes es troben emmagatzemades a la web ClinicalTrials.gov.
+
+
+El contingut inclou dades de l’estudi (nom, fase, malaltia, tractament), dades dels participants en l’estudi (edats, sexe, nombre..) i responsables / patrocinadors de l’estudi.
+
 
 Cada un d'aquests registres està compost per aquests camps:
 
@@ -31,25 +37,27 @@ Cada un d'aquests registres està compost per aquests camps:
 - Estimated Enrollment: Nombre de participants (enter) 
 - Eligibility Criteria: Criteri per incloure els participants a l'estudi (string)
 - Sex/Gender: Sexe dels participants (string)
-- Ages: Edats del participants (string)
+- Ages: Edats dels participants (string)
 - Study Population: Població a estudiar (string)
 - Study Groups/Cohorts: Grups d'estudi (string)
 - Listed Location Countries: Països dels participants en l'estudi (string)
 ### Responsables / Sponsors
 - Responsible Party: Responsables del projecte (string)
-- Study Sponsor: Sponsors que paricipen (string)
+- Study Sponsor: Sponsors que participen (string)
 - Collaborators: Col·laboradors de l'estudi (string)
 - Investigators: Grup d'investigadors (string)
 ## Inspiració
 El projecte surt de la necessitat de tenir un dataset dels estudis clínics que s'han realitzat fins ara de la COVID-19.
 
 Amb aquest dataset podem fer estudis estadístics o de data mining amb:
+
 * Quins tipus de intervencions o procediments s'han realitzat o quins medicament s'han emprat.
 * Edats i sexe de les persones testades.
 * Volum dels individus testats.
-* Països paticipants.
-* Fases en les quals és troben els estudis.
+* Països participants.
+* Fases en les quals es troben els estudis.
 * Dates dels estudis.
+* ...
 
 Aquestes dades són una recopilació sense cap tipus de processament, per tant serà necessari, de cara a realitzar estudis posteriors, fer tractaments i neteja de les dades.
 
@@ -113,7 +121,7 @@ page: NCT04386668 processed
 processing page: 207  ...
 ``` 
 ### User-Agent
-Per a simular la navegació d'un web browser he fet servir la llibreria fake-useragent. Aquesta llibreria simula un User Agent i ho fa de forma aleatòria per a cada una de les conexions que es realitzen.
+Per a simular la navegació d'un web browser he fet servir la llibreria fake-useragent. Aquesta llibreria simula un User Agent i ho fa de forma aleatòria per a cada una de les connexions que es realitzen.
 ## Configuració previa:
 - pip install selenium
 - pip install webdriver-manager
@@ -136,15 +144,17 @@ I ens descarregarà els estudis que tenen com a keyword la paraula cancer.
 
 Per defecte la keyword és COVID.
 ## Llicència utilitzada
-Faig servir la llicència [CC BY-NC-SA 4.0 License](https://creativecommons.org/licenses/by-nc-sa/4.0/). Amb aquesta llicència es pot distribuir i modificar l'obra, però no per al seu ús comercial. Si es vol publicar una obra derivada, caldrà fer-ho amb la mateixa llicència de l'obra original. Faig servir una llicència que limiti l'ús a fins comercials. 
+Faig servir la llicència [CC BY-NC-SA 4.0 License](https://creativecommons.org/licenses/by-nc-sa/4.0/).Amb aquesta llicència es pot distribuir i modificar l'obra, però no fer servir per al seu ús comercial. Si es vol publicar una obra derivada, caldrà fer-ho amb la mateixa llicència de l'obra original. Faig servir una llicència que limiti l'ús a finalitats comercials. 
+
 Fer servir aquesta llicència implica:
 * Compartir (Share): llibertat per a copiar i redistribuïr el material a qualsevol mitjà o format.
 * Atribución (Attribution): s'ha de fer referència a la llicència, donar crèdit i indicar canvis.
 * Adaptar (Adapt): barrejar, transformar i contruir sobre el material.
 * NoComercial (NonCommercial): no es pot fer servir al material amb fins comercials.
-* CompartirIgula (ShareAlike): si es barreja, transforma o contrueix sobre el material, s'ha de fer servir sota la mateixa llicència.
+* CompartirIgual (ShareAlike): si es barreja, transforma o contrueix sobre el material, s'ha de fer servir sota la mateixa llicència.
 
 ## Agraïments
-La pràctica per als estudis universitaris de la UOC la he pogut realitzar gràcies a la base de dades [Clinicaltrials.gov](https://clinicaltrials.gov/).
+La pràctica per als estudis universitaris de la UOC la he pogut realitzar gràcies a la base de dades [Clinicaltrials.gov](https://clinicaltrials.gov/), proporcionada per la Biblioteca Nacional de Medicina dels EE. UU.
+
 ## Publicació a Zenodo
 El dataset ha estat publicat a Zenodo i el podem trobar en aquesta [URL](https://zenodo.org/record/4242935#.X6GpVYj0mUk).
