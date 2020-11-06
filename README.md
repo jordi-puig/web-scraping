@@ -1,5 +1,29 @@
 # Estudis Clínics COVID (Web Scraping)
 ![Covid-19 - Clinical Trials](https://github.com/jordi-puig/web-scraping/blob/master/image.jpg)
+
+## Components
+Aquesta pràctica ha estat realitzada integrament per l'alumne Jordi Puig Ovejero
+
+## Fitxers
+* src/scraper: carpeta amb el codi font del projecte 
+* PRA1-web-scraping.pdf: entrega de totes les pregutes de la PRA en format PDF
+* image.jpg: imatge representativa del projecte
+* README.md: explicació del projecte
+* studies.csv: dataset en format csv
+* LICENSE: llicència afegida
+* .gitignore: fitxer per a no versionar contingut no desitjat (fitxers de configuración, temporals,...)
+
+#### Codi font
+El codi font està format pels següents fitxers cada un amb una responsabilitat específica, [SRP](https://en.wikipedia.org/wiki/Single-responsibility_principle) i amb porgramació orientació a objectes, [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming):
+- main.py: és la classe principal que rep la petició i arrenca tot el procés
+- scraper.py: és la classe que s'encarrega de realitzar el procés d'scraping, guardar les pàgines en una llista i posteriorment emmagatzemar el fitxer csv.
+- browser.py: fa la navegació. Embolcalla un objecte de Selenium i realitza la navegació per les pàgines.
+- navigator.py: a partir de la pàgina del navegador permet anar a la següent pàgina o l'anterior.
+- study_scraper.py: fa scraping d'una pàgina d'estudi.
+- study.py: és l'entitat study.
+- data2csv.py: guarda els registes generats de l'scraping realitzat a un fitxer csv.
+
+
 ## Descripció de l'objectiu
 La web [ClinicalTrials.gov](https://clinicaltrials.gov) és una base de dades d’estudis clínics finançats amb fons privats i públics realitzats a tot el món.
 
@@ -19,7 +43,7 @@ El contingut inclou dades de l’estudi (nom, fase, malaltia, tractament), dades
 
 Cada un d'aquests registres està compost per aquests camps:
 
-### Dades de l'estudi
+#### Dades de l'estudi
 - Id: Identificador del registre (string)
 - Brief Title: Títol (string)
 - Official Title: Títol oficial (string)
@@ -33,7 +57,7 @@ Cada un d'aquests registres està compost per aquests camps:
 - Study Arms: Grups d'estudi (string)
 - Start Date: Data d'inici (date)
 - Completion Date: Data de finalització (date)
-### Dades dels participants en l'estudi
+#### Dades dels participants en l'estudi
 - Estimated Enrollment: Nombre de participants (enter) 
 - Eligibility Criteria: Criteri per incloure els participants a l'estudi (string)
 - Sex/Gender: Sexe dels participants (string)
@@ -41,7 +65,7 @@ Cada un d'aquests registres està compost per aquests camps:
 - Study Population: Població a estudiar (string)
 - Study Groups/Cohorts: Grups d'estudi (string)
 - Listed Location Countries: Països dels participants en l'estudi (string)
-### Responsables / Sponsors
+#### Responsables / Sponsors
 - Responsible Party: Responsables del projecte (string)
 - Study Sponsor: Sponsors que participen (string)
 - Collaborators: Col·laboradors de l'estudi (string)
@@ -61,15 +85,6 @@ Amb aquest dataset podem fer estudis estadístics o de data mining amb:
 
 Aquestes dades són una recopilació sense cap tipus de processament, per tant serà necessari, de cara a realitzar estudis posteriors, fer tractaments i neteja de les dades.
 
-## Codi font
-El codi font està format pels següents fitxers cada un amb una responsabilitat específica, [SRP](https://en.wikipedia.org/wiki/Single-responsibility_principle) i amb porgramació orientació a objectes, [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming):
-- main.py: és la classe principal que rep la petició i arrenca tot el procés
-- scraper.py: és la classe que s'encarrega de realitzar el procés d'scraping, guardar les pàgines en una llista i posteriorment emmagatzemar el fitxer csv.
-- browser.py: fa la navegació. Embolcalla un objecte de Selenium i realitza la navegació per les pàgines.
-- navigator.py: a partir de la pàgina del navegador permet anar a la següent pàgina o l'anterior.
-- study_scraper.py: fa scraping d'una pàgina d'estudi.
-- study.py: és l'entitat study.
-- data2csv.py: guarda els registes generats de l'scraping realitzat a un fitxer csv.
 ## Implementació:
 ### Selenium
 Per a realitzar l'scraping s'ha fet servir la llibreria Selenium. Aquesta llibreria l'havia fet servir amb anterioritat per a realitzar Testing en altres plataformes. 
